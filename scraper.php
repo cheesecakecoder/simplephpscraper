@@ -16,7 +16,7 @@ $info = curl_getinfo($ch);
 curl_close ($ch);
 
 if ($info['http_code'] == 200){
-	//TODO: extract data
+	// TODO: extract data
 }
 
 ?>
